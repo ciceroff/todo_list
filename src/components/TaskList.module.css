@@ -1,0 +1,65 @@
+.taskPage {
+  top: -60px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.taskForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.taskForm input {
+  background: var(--gray-500);
+  color: var(--gray-500);
+  width: 39.875rem;
+  height: 3.375rem;
+  border-radius: 8px;
+  padding: 1rem;
+  border: 0;
+}
+
+.taskForm button {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 5.625rem;
+  height: 3.25rem;
+  background: var(--blue-dark);
+  border-radius: 8px;
+  margin-left: 0.5rem;
+  border: 0;
+}
+
+.taskCounters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.taskCounters span {
+  background: var(--gray-400);
+  border: 0.1rem solid var(--gray-400);
+  color: white;
+  border-radius: 50%;
+  padding: 0.2rem 0.5rem;
+}
+
+.tasksCreated {
+  color: var(--blue-dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tasksDone {
+  color: var(--purple);
+}
+
+.taskList {
+  margin-top: 2rem;
+}
