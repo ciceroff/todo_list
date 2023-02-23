@@ -13,7 +13,7 @@
 
 .taskForm input {
   background: var(--gray-500);
-  color: var(--gray-500);
+  color: white;
   width: 39.875rem;
   height: 3.375rem;
   border-radius: 8px;
